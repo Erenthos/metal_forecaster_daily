@@ -9,7 +9,7 @@ st.title('MCX Copper Price Forecasting with Variance (using RandomForestRegresso
 
 # Sample data (you can replace this with actual data)
 data = {
-    'Day': ['Mon,28th Oct ', 'Tue,29th Oct', 'Wed, 30th Oct', 'Thu,31st Oct', 'Fri, 1st Nov 2024', 'Mon, 4th Nov 2024', 'Tue, 5th Nov 2024'],
+    'Day': ['28 Oct ', '29 Oct', '30 Oct', '31 Oct', '1 Nov', '4 2024', '5 2024'],
     'Actual_Price': [795.40, 806.20, 803.70, 814.60, 847.80, 852.70, 857.50]
 }
 
