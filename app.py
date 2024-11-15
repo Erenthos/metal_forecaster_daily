@@ -9,8 +9,8 @@ st.title('MCX Copper Price Forecasting with Variance (using RandomForestRegresso
 
 # Sample data for one week (you can replace this with actual data)
 data = {
-    'Date': pd.date_range(start='2023-10-28', periods=7, freq='D'),  # Daily values for a week
-    'Actual_Price': [795.40, 806.20, 803.70, 814.60, 847.80, 852.70, 857.50]
+    'Date': pd.date_range(start='2024-11-11', periods=5, freq='D'),  # Daily values for a week
+    'Actual_Price': [834, 820, 806, 795,797]
 }
 
 # Convert to DataFrame
